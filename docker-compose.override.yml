@@ -1,0 +1,8 @@
+version: '2'
+services:
+    db:
+        ports:
+            - 17010:5432
+    pga:
+        ports:
+            - 17011:5050
